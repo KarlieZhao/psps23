@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 432.0, 189.0, 1145.0, 630.0 ],
+		"rect" : [ 146.0, 100.0, 1145.0, 630.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 324.0, 447.0, 327.0, 20.0 ],
+					"text" : "channels 13 - 20 are the second tier of speakers (overhead)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "toggle",
@@ -109,19 +120,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "bang" ],
-					"patching_rect" : [ 129.0, 133.0, 83.0, 22.0 ],
-					"text" : "mc.sfplay~ 12"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 326.5, 447.0, 296.0, 20.0 ],
-					"text" : "channels 1 - 12 are the first tier of speakers (ear level)"
+					"patching_rect" : [ 129.0, 133.0, 76.0, 22.0 ],
+					"text" : "mc.sfplay~ 8"
 				}
 
 			}
@@ -133,15 +133,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 444.0, 17.051025390625, 483.0, 33.0 ],
-					"text" : "In this example a 12-channel audio file is used with the idea that the each channel will be mapped to one speaker in the Spatial Audio Studio. "
+					"text" : "In this example an 8-channel audio file is used with the idea that the each channel will be mapped to one speaker in the Spatial Audio Studio. "
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"channels" : 12,
+					"channels" : 8,
 					"id" : "obj-6",
-					"lastchannelcount" : 12,
+					"lastchannelcount" : 8,
 					"maxclass" : "mc.live.gain~",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -170,8 +170,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 447.0, 193.0, 22.0 ],
-					"text" : "mc.dac~ 1 2 3 4 5 6 7 8 9 10 11 12"
+					"patching_rect" : [ 129.0, 447.0, 188.0, 22.0 ],
+					"text" : "mc.dac~ 13 14 15 16 17 18 19 20"
 				}
 
 			}
