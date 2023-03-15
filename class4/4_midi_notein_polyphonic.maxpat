@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1415.0, 148.0, 1059.0, 956.0 ],
+		"rect" : [ 115.0, 87.0, 1059.0, 956.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1592,7 +1592,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 144.000004291534424, 322.66667628288269, 400.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "route pitch and velocity data according to voice number to matching outlet"
 				}
 
@@ -1728,7 +1727,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 132.333332121372223, 222.135140776634216, 61.0, 20.0 ],
-									"presentation_linecount" : 3,
 									"text" : "frequency"
 								}
 
@@ -1751,7 +1749,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 147.590088427066803, 103.000003039836884, 248.0, 20.0 ],
-									"presentation_linecount" : 3,
 									"text" : "swap order so that pitch is set before velocity"
 								}
 
@@ -1785,7 +1782,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 139.009006083011627, 359.057916283607483, 371.0, 20.0 ],
-									"presentation_linecount" : 3,
 									"text" : "sample and hold the freq value until amplitude envelope is triggered "
 								}
 
@@ -1797,7 +1793,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 113.333332121372223, 264.027029871940613, 146.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "create signal at freq value"
 								}
 
@@ -1809,7 +1804,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 113.333332121372223, 184.000005483627319, 143.0, 20.0 ],
-									"presentation_linecount" : 7,
 									"text" : "convert midi to frequency"
 								}
 
@@ -1955,7 +1949,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 369.40539163351059, 181.69369649887085, 49.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "velocity"
 								}
 
@@ -2236,7 +2229,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 226.666673541069031, 102.666669011116028, 79.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "MIDI channel"
 				}
 
@@ -2248,7 +2240,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.666669249534607, 102.666669011116028, 49.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "velocity"
 				}
 

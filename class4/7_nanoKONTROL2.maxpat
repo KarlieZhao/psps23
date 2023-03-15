@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
+			"minor" : 5,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 393.0, 79.0, 1061.0, 863.0 ],
+		"rect" : [ 86.0, 87.0, 1061.0, 863.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"angle" : 270.0,
@@ -134,7 +135,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 776.0, 46.0, 209.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "KORG nanoKONTROL2 starter patch"
 				}
 
@@ -157,7 +157,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 776.0, 193.0, 110.0, 20.0 ],
-					"presentation_linecount" : 4,
 					"text" : "CYCLE / MARKER"
 				}
 
@@ -169,7 +168,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 664.0, 44.0, 49.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "TRACK"
 				}
 
@@ -181,7 +179,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 456.0, 616.0, 61.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "RECORD"
 				}
 
@@ -215,7 +212,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 456.0, 169.0, 57.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "FADERS"
 				}
 

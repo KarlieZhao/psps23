@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 421.0, 133.0, 1059.0, 956.0 ],
+		"rect" : [ 104.0, 87.0, 1059.0, 956.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -267,7 +267,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 611.0, 135.0, 1281.0, 554.0 ],
+						"rect" : [ 51.0, 128.0, 1135.0, 831.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -296,6 +296,30 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 532.5, 399.5, 50.0, 22.0 ],
+									"text" : "72 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 124.5, 396.0, 50.0, 22.0 ],
+									"text" : "72 80"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-130",
 									"maxclass" : "message",
@@ -740,7 +764,8 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-59", 0 ],
+									"destination" : [ "obj-3", 1 ],
+									"order" : 0,
 									"source" : [ "obj-105", 0 ]
 								}
 
@@ -748,6 +773,23 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
+									"order" : 1,
+									"source" : [ "obj-105", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 1 ],
+									"order" : 0,
+									"source" : [ "obj-108", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-59", 0 ],
+									"order" : 1,
 									"source" : [ "obj-108", 0 ]
 								}
 
@@ -1215,7 +1257,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1302.0, 240.0, 870.0, 806.0 ],
+						"rect" : [ 351.0, 160.0, 870.0, 806.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

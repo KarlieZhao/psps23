@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 421.0, 133.0, 1059.0, 956.0 ],
+		"rect" : [ 100.0, 87.0, 1346.0, 956.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 437.282056748867035, 119.309860706329346, 147.0, 20.0 ],
-					"presentation_linecount" : 5,
 					"text" : "note duration milliseconds"
 				}
 
@@ -115,6 +114,7 @@
 					"maxclass" : "kslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
+					"offset" : 48,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 60.666669249534607, 19.014084756374359, 336.0, 53.0 ]
@@ -236,7 +236,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.666669249534607, 237.062939465045929, 165.0, 20.0 ],
-					"presentation_linecount" : 6,
 					"text" : "offset pitch (octaves)"
 				}
 
@@ -260,7 +259,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 444.055948555469513, 165.972230136394501, 49.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "velocity"
 				}
 
