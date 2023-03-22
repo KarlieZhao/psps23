@@ -1434,7 +1434,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 536.666666626930237, 287.5, 323.0, 20.0 ],
-					"text" : "everytime a carriage return is received it the list gets output"
+					"text" : "everytime a carriage return is received, the list gets output"
 				}
 
 			}
