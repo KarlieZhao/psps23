@@ -34,7 +34,7 @@ void setup() {
   pinMode(1, INPUT_PULLUP);
   pinMode(2, INPUT_PULLUP);
   pinMode(3, INPUT_PULLUP);
-  //  pinMode(4, INPUT_PULLUP);
+  // pinMode(4, INPUT_PULLUP);
   //  pinMode(5, INPUT_PULLUP);
   //  pinMode(6, INPUT_PULLUP);
   //  pinMode(7, INPUT_PULLUP);
