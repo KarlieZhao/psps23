@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
+			"minor" : 5,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 102.0, 79.0, 1233.0, 891.0 ],
+		"rect" : [ 568.0, 87.0, 1233.0, 891.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-28",
@@ -111,7 +112,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
+							"minor" : 5,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -145,6 +146,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -481,7 +483,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 713.0, 385.0, 272.0, 33.0 ],
+					"patching_rect" : [ 713.0, 385.0, 276.0, 33.0 ],
 					"text" : "<- 'write' opens a window, give a name to your file and hit OK. recording begins. hit stop when done."
 				}
 
@@ -577,8 +579,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 586.0, 543.0, 82.0, 22.0 ],
-					"text" : "jit.qt.record"
+					"patching_rect" : [ 586.0, 543.0, 55.0, 22.0 ],
+					"text" : "jit.record"
 				}
 
 			}

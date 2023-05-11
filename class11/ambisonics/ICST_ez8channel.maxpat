@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 1010.0, 767.0 ],
+		"rect" : [ 59.0, 104.0, 1678.0, 856.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 927.666688859462738, 258.333341419696808, 391.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "1 45 0 1, 2 90 0 1, 3 135 0 1, 4 180 0 1, 5 -135 0 1, 6 -90 0 1, 7 -45 0 1, 8 0 0 1"
 				}
 
@@ -103,7 +102,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
